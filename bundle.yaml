@@ -1,0 +1,18 @@
+series: bionic
+description: |
+    Minimal ELK Stack
+applications:
+  elasticsearch:
+    charm: cs:~omnivector/elasticsearch
+    num_units: 1
+  kibana:
+    charm: cs:~omnivector/kibana
+    num_units: 1
+  logstash:
+    charm: cs:~omnivector/logstash
+    num_units: 1
+relations:
+  - - elasticsearch:client
+    - kibana:elasticsearch
+  - - elasticsearch:client
+    - logstash:elasticsearch
