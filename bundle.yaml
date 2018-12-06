@@ -5,12 +5,14 @@ applications:
   elasticsearch:
     charm: cs:~omnivector/elasticsearch
     num_units: 1
+    constraints: mem=4G
   kibana:
     charm: cs:~omnivector/kibana
     num_units: 1
   logstash:
     charm: cs:~omnivector/logstash
     num_units: 1
+    constraints: mem=4G
 relations:
   - - elasticsearch:client
     - kibana:elasticsearch
