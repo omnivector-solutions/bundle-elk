@@ -1,7 +1,8 @@
 # ELK Stack
 
 This bundles deploys Elasticsearch, Logstash, and Kibana.
-By: https://omnivector.solutions
+
+By: http://omnivector.solutions
 
 # Post deployment actions
 Access Kibana by opening up the web interface:
