@@ -9,6 +9,7 @@ applications:
   kibana:
     charm: cs:~omnivector/kibana
     num_units: 1
+    constraints: mem=2G
   logstash:
     charm: cs:~omnivector/logstash
     num_units: 1
