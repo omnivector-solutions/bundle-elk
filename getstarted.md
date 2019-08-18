@@ -1,5 +1,9 @@
-# Begin Logging Now!
+# Omnivector Solutions' ELK Core Bundle
+Congratulations! You are deploying Omnivector Solutions' ELK Core bundle! {details_link}
+
+## Begin Logging Now!
 Following a successful deployment of this bundle, you should be able to start using the components of the stack immediately.
+
 
 ### Kibana
 Visit the ip address of the Kibana charm in your browser to access the Kibana UI.
@@ -10,7 +14,7 @@ juju config kibana kibana-password
 ```
 
 ### Elasticsearch
-Connect to Elasticsearch from your own application by opening up a connection to `http://<ip-address>:9200>` using the client of your choosing.
+Connect to Elasticsearch from your own application by opening up a connection to `http://<elasticsearch-ip>:9200>` using the client of your choosing.
 
 ### Logstash
 The [Logstash](https://jaas.ai/u/omnivector/logstash) charm exposes the `beat` interface. This allows you to connect any of the elastic "beats" charms to logstash, and start sending logs immediately.
