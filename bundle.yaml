@@ -1,6 +1,6 @@
 series: bionic
 description: |
-    Minimal ELK Stack
+    ELK Core
 applications:
   elasticsearch:
     charm: cs:~omnivector/elasticsearch

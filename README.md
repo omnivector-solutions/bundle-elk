@@ -1,5 +1,11 @@
-# ELK Stack
+# ELK Core Bundle
+Elasticsearch, Logstash, Kibana
 
-This bundles deploys Elasticsearch, Logstash, and Kibana.
+### Core Charm Components
+* [Kibana](https://jaas.ai/u/omnivector/kibana)
+* [Elasticsearch](https://jaas.ai/u/omnivector/elasticsearch)
+* [Logstash](https://jaas.ai/u/omnivector/logstash)
 
-By: http://omnivector.solutions
+
+### Contact
+* [Omnivector Solutions](https://www.omnivector.solutions) <info@omnivector.solutions>
